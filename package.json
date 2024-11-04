@@ -1,0 +1,44 @@
+{
+    "name": "shape-extrusion-server",
+    "version": "1.0.0",
+    "description": "Server-side for multiplayer shape extrusion game using Colyseus.",
+    "main": "src/colyseusServer.js",
+    "scripts": {
+      "start": "node src/colyseusServer.js",
+      "test": "jest"
+    },
+    "dependencies": {
+      "colyseus": "^0.15.0",
+      "express": "^4.18.2"
+    },
+    "devDependencies": {
+      "jest": "^29.5.0"
+    },
+    "keywords": ["multiplayer", "game", "colyseus", "3D", "real-time"],
+    "author": "",
+    "license": "ISC"
+  }
+
+  
+
+  {
+    "name": "shape-extrusion-client",
+    "version": "1.0.0",
+    "description": "Client-side for multiplayer shape extrusion game using BabylonJS.",
+    "scripts": {
+      "start": "parcel index.html",
+      "build": "parcel build index.html",
+      "test": "echo \"No tests specified for client\" && exit 0"
+    },
+    "dependencies": {
+      "babylonjs": "^5.0.0",
+      "colyseus.js": "^0.15.0"
+    },
+    "devDependencies": {
+      "parcel-bundler": "^1.12.5"
+    },
+    "keywords": ["multiplayer", "game", "babylonjs", "3D", "real-time"],
+    "author": "",
+    "license": "ISC"
+  }
+  
